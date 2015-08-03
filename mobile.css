@@ -4,7 +4,7 @@
 
 /* Hide page elements that will not be displayed */
 
-header h1, header nav, section nav.vertical, footer {
+header h1, header nav, section nav.vertical, footer, #left, #right, #top, #bottom {
 	display: none;}
 	
 /*Header Styles */
@@ -39,6 +39,9 @@ figure figcaption {
 			width: 100%;
 			}
 	}
+	
+	Img {
+		Width: 100%}
 
 	/* MObile styles under landscape orietnation */
 		@media screen and (orientation: landscape) {
@@ -51,3 +54,12 @@ figure figcaption {
 			width: 100%;
 			}
 		}
+		
+	body {
+	
+	margin-top: 0;
+	margin-right: 1em;
+	margin-bottom: .5em;
+	margin-left: 1em;
+
+}

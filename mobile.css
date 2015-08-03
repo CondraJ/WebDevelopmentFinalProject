@@ -1,0 +1,53 @@
+/* Mobile Css */
+/* Author: Joseph Condra */
+/* July 31, 2014 */
+
+/* Hide page elements that will not be displayed */
+
+header h1, header nav, section nav.vertical, footer {
+	display: none;}
+	
+/*Header Styles */
+header {
+	background: center center no-repeat;
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkitbackground-size: contain;
+	-backgournd-size: contain; 
+	
+	height: 50em;
+	width: 100%;
+	
+}
+
+/*Figure box caption styles */
+
+figure figcaption {
+	font-size: 12em;
+	text-align: center;
+}
+
+/* Mobile styles under portrait orientation */
+	@media screen and (orientation: potrait) {
+	/*Main section navigation list styles */
+	
+	section#main nav{
+		float: left;
+		width: 20%;
+		}
+		figure img {
+			width: 100%;
+			}
+	}
+
+	/* MObile styles under landscape orietnation */
+		@media screen and (orientation: landscape) {
+		/* Main section navigation list styles */
+		
+		section#main nav {
+			width: 100%;
+			}
+			figure img {
+			width: 100%;
+			}
+		}

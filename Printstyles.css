@@ -1,0 +1,38 @@
+/* print styles */
+/* Author: Joseph Condra */
+/* July 31, 2014 */
+
+/* hides elements */
+	nav, header,p class {
+		display: none;
+		}
+	@page {
+		size: 8.5in 11in;
+		width: 100%;
+		margin: 0.5in;
+
+		}
+	
+	/* formats page for printing */
+	body {
+		color: black;
+		background-color: white;
+		background-image: none;
+		font-size: 12pt;
+		font-family: "Times New Roman", Times, serif;
+		line-height: 120%
+		}
+	H1 {
+		line-height: 120%;
+		text-align: left;}
+	Img {
+		color: black;
+		background color: white;
+	}
+		
+		
+	/* sets links to default colors */
+	a {
+		text-decoration: underline;
+		color: blue;
+	}

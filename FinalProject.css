@@ -1,0 +1,153 @@
+/*
+	Final Project
+	Layout Style Sheet
+	
+	Author: Joseph Condra
+*/
+
+#top, #bottom, #left, #right {
+	background: slategray;
+	position:fixed
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 160px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0;}
+		
+	#bottom {
+		left: 0; right: 0;
+		height: 50px;}
+		
+
+/* body */
+
+body {
+	background-color: lightblue;
+	vertical-align: middle";
+	font-family: "Courier New", Courier, Monospace;
+	margin-top: 0em;
+	margin-right: 10em;
+	margin-bottom: 3em;
+	margin-left: 10em;
+
+}
+
+/* links */
+
+a{
+	color: orange;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a:hover { 
+	text-decoration: underline;
+	}
+/* heading styles */
+
+h1 {
+	background-color: orange;
+	color: black;
+	font-size: 2em;
+	letter-spacing: .2em;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: .5em;
+	
+}
+
+h2 {
+	background-color: brown;
+	color: silver;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/* header */
+
+Header p{ 
+	background-color:teal;
+	margin: 0 0 0 0;
+	padding: 0;
+	color: purple;
+	font-size: 2em; 
+	font-style:Georgia, "Times New Roman", times, serif;
+	text-align: center;
+	}
+
+/* subheader */
+
+
+/* paragraph */
+p {
+	color: black;
+	line-height: 1.5em;
+	text-indent: 3em;
+	margin: 0 0 0 10px;
+	padding: 4px;
+	text-align: center;	
+}
+
+/* em */
+p em {
+		color: firebrick;
+		}
+
+/* Style */
+	nav { background-color: black;
+	line-height: 200%;
+	display: block;
+	text-align: center
+	
+	}
+	
+	nav li {
+		color: white;
+		font-weight: bold;}
+	
+	nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	}
+	
+/* Img */
+
+	img {
+	vertical-align: middle;
+	}
+	
+/*ul*/
+
+	ul {
+		list-style-type: square;
+		list-style-position: inside;
+	}
+
+/*li*/
+	li {
+		
+		list-style-position:inside;
+		}
+
+		.center {
+	text-align: center;
+	}
+
+/*footer */
+
+footer {
+	color: saddlebrown;
+	background-color: palegoldenrod;
+	font-size: .8em;
+	text-align: center;
+}
